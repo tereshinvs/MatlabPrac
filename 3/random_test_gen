@@ -1,0 +1,5 @@
+N = 50;
+x = random('Uniform', 0, 1, 50, 1);
+y = random('Uniform', 0, 1, 50, 1);
+points = [x, y]
+save('random_uniform.mat', 'points');
